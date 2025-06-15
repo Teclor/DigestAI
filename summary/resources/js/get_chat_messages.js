@@ -1,0 +1,1 @@
+(() => console.log(JSON.stringify([...document.querySelectorAll('div.chat-message__text')].map(m => ({text: m.textContent.trim() || ''})))))()

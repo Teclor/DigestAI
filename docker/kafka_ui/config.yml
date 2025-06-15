@@ -1,0 +1,12 @@
+kafka:
+  clusters:
+    - name: local
+      bootstrapServers: kafka:9092
+      schemaRegistry: http://schema-registry:8081
+      alias: Local Cluster
+      readOnly: false
+      enableTopicDelete: true
+      enableConsumerGroupDelete: true
+      properties:
+        topicScanIntervalMillis: 60000
+        messageReadTimeoutMillis: 10000

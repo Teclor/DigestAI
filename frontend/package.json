@@ -1,0 +1,26 @@
+{
+  "name": "kafka-chat-viewer",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "axios": "^1.6.7",
+    "element-plus": "^2.10.1",
+    "path": "^0.12.7",
+    "vite": "^5.0.0",
+    "vue": "^3.4.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@tailwindcss/vite": "^4.1.8",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "sass-embedded": "^1.89.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
